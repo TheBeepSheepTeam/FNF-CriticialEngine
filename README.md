@@ -1,28 +1,14 @@
-# Friday Night Funkin v0.2.8 (Newgrounds Exclusive)
+# Friday Night Funkin' Critical Engine
 
-idk
+This is the repository for Critical Engine.
 
-This is the repository for Friday Night Funkin' v0.2.8, a game in which lies on a singular web page on the internet with no open-source code.
-
-This project is the result of reverse engineering the transpiled JavaScript code into readable Haxe code, which can now be built upon with ease.
+This project is based off on the v0.2.8 source code, which should probably be a fresh start.
 
 # Our goals
 
-This project aims to bring v0.2.8 back into Haxe as close as possible to the original.
-
-This means bugs and other issues with v0.2.8 in general are not being fixed.
-
-Any issues regarding these types of bugs (e.g. Cutscenes not working on desktop) will receive a `wontfix` label and be immediately closed.
+This project aims to include mod support in a whole new level.
 
 Any errors on my part though will be fixed as soon as I notice them. If you catch something before I do, [please open an issue regarding the error](../../issues).
-
-# Important notes
-
-To not mess with any of the integrations Ninjamuffin had in place, I have decided to completely remove them from the project.
-
-What's missing? Logins, awards, and a check to see if the game is outdated or not. Other than that though, the repo should be mostly accurate to how to game is shown on the website.
-
-If demand is high enough, I may make a separate branch for you to enter in your own Newgrounds API keys and bring these features back. We'll see.
 
 # Support Friday Night Funkin'
 
@@ -36,10 +22,15 @@ Support the project on the Kickstarter page: https://www.kickstarter.com/project
 
 ## Credits / shoutouts
 
+### Critical Engine Credits
+- CharlesCatYT - Main Programmer
+- mello - Programmer
+
+### FNF Credits
 - [ninjamuffin99](https://twitter.com/ninja_muffin99) - Programmer
 - [PhantomArcade3K](https://twitter.com/phantomarcade3k) and [Evilsk8r](https://twitter.com/evilsk8r) - Art
 - [Kawaisprite](https://twitter.com/kawaisprite) - Musician
-- [AngelDTF (me!)](https://github.com/AngelDTF) - Reverse engineering
+- [AngelDTF (me!)](https://github.com/AngelDTF) - Reverse engineering, which being used as a base to make this engine
 
 ## Build instructions
 
@@ -52,8 +43,8 @@ IF YOU WANT TO COMPILE THE GAME YOURSELF, CONTINUE READING!!!
 ### Installing the Required Programs
 
 First you need to install Haxe and HaxeFlixel. I'm too lazy to write and keep updated with that setup (which is pretty simple). 
-1. [Install Haxe](https://haxe.org/download/) (If you're having issues installing libraries on latest, try using [Haxe 4.1.5](https://haxe.org/download/version/4.1.5/) instead)
-2. [Install HaxeFlixel](https://haxeflixel.com/documentation/install-haxeflixel/) after downloading Haxe
+1. [Install Haxe](https://haxe.org/download/) 4.2.5 is recommended, since 4.1.5 is shit and misses a handful of stuff required for this to work.
+2. [Install HaxeFlixel](https://haxeflixel.com/documentation/install-haxeflixel/) after downloading Haxe.
 
 Other installations you'd need is the additional libraries, a fully updated list will be in `Project.xml` in the project root. Currently, these are all of the things you need to install:
 ```
